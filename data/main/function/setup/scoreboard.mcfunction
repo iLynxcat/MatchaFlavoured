@@ -14,7 +14,7 @@ scoreboard players set 45 sneaking 45
 scoreboard objectives add Hunger food
 
 scoreboard objectives add HealthPoints health
-scoreboard objectives add deaths deathCount
+scoreboard objectives add Deaths deathCount
 scoreboard objectives add Hearts dummy
 scoreboard players add @a Hearts 0
 execute at @a[scores={Hearts=..20}] run scoreboard players set @p Hearts 20
