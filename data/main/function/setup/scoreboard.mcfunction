@@ -19,6 +19,7 @@ scoreboard objectives add Hearts dummy
 scoreboard players add @a Hearts 0
 execute at @a[scores={Hearts=..20}] run scoreboard players set @p Hearts 20
 
+scoreboard objectives add FreezingWaterTime dummy
 
 scoreboard players set 1 sleepTimerScore 1
 scoreboard players set 100 sleepTimerScore 100

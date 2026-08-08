@@ -1,0 +1,39 @@
+{
+	"condition": "minecraft:all_of",
+	"terms": [
+		{
+			"condition": "minecraft:location_check",
+			"offsetY": 1,
+			"predicate": {
+				"block": { "blocks": "minecraft:water" }
+			}
+		},
+		{
+			"condition": "minecraft:location_check",
+			"predicate": {
+				"biomes": "#minecraft:is_frozen"
+			}
+		},
+		{
+			"condition": "minecraft:inverted",
+			"term": {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"chest": {
+							"predicates": {
+								"minecraft:enchantments": [
+									{
+										"enchantments": "main:freezing_protection",
+										"levels": { "min": 3, "max": 3 }
+									}
+								]
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+}

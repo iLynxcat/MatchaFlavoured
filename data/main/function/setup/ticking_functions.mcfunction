@@ -5,7 +5,7 @@ function main:mechanic/warding_stone
 function main:mechanic/spawn_mechanic/ticking
 function main:mechanic/remove_xp
 function main:mechanic/hpdown
-function main:environmental/check_freezing_water_conditions
+function main:environmental/freezing_water
 function main:particle/divine_favour_falling
 function main:particle/riding_boat
 function main:stopwatches
