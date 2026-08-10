@@ -1,1 +1,1 @@
-scoreboard players set @p eerie 1
+scoreboard players set @s eerie 1
