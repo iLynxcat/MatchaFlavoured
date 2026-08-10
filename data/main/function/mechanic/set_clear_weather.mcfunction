@@ -1,2 +1,2 @@
 weather clear
-advancement revoke @p only main:mechanics/cheerful_clay_statue
+advancement revoke @s only main:mechanics/cheerful_clay_statue
