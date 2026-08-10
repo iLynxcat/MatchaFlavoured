@@ -1,1 +1,1 @@
-execute at @p run effect give @e[type=#main:livestock,distance=..3] minecraft:slowness 1 9 true
+execute at @s run effect give @e[type=#main:livestock,distance=..3] minecraft:slowness 1 9 true

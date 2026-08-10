@@ -1,1 +1,1 @@
-execute at @a run execute if score @p anvil_interaction >= 1 anvil_interaction run function main:mechanic/set_xp
+execute as @a run execute if score @s anvil_interaction matches 1.. run function main:mechanic/set_xp
