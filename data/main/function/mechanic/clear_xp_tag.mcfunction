@@ -1,1 +1,1 @@
-tag @p remove ExcludeFromXPRemoval
+tag @s remove ExcludeFromXPRemoval

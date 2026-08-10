@@ -1,2 +1,2 @@
-execute at @a[tag=!ExcludeFromXPRemoval] run xp set @p 0 levels
-execute at @a[tag=!ExcludeFromXPRemoval] run xp set @p 0 points
+execute as @a[tag=!ExcludeFromXPRemoval] run xp set @s 0 levels
+execute as @a[tag=!ExcludeFromXPRemoval] run xp set @s 0 points
