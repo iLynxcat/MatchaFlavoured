@@ -10,9 +10,8 @@ execute as @s[type=minecraft:creeper] run attribute @s minecraft:max_health base
 #Weak but Fast Cavespiders
 execute as @s[type=minecraft:cave_spider] run attribute @s minecraft:max_health base set 4
 execute as @s[type=minecraft:cave_spider] run attribute @s minecraft:movement_speed base set 0.4
-#Fast Zombies (Only regular zombies)
 execute as @s[type=minecraft:zombie,nbt={IsBaby:0b}] run attribute @s minecraft:movement_speed base set 0.34
-# Fork tuning (was 0.3 before 1.10): execute as @s[type=minecraft:zombie,nbt={IsBaby:0b}] run attribute @s minecraft:movement_speed base set 0.3
+#Fast Zombies (Only regular zombies)
 # Fork tuning (was 1.2 before 1.10): execute as @s[type=minecraft:zombie,nbt={IsBaby:0b}] run attribute @s minecraft:entity_interaction_range base set 1.2
 execute as @s[type=minecraft:zombie,nbt={IsBaby:0b}] run attribute @s minecraft:max_health base set 10
 execute as @s[type=minecraft:zombie,nbt={IsBaby:0b}] run attribute @s minecraft:step_height base set 1
