@@ -21,7 +21,6 @@ scoreboard players add @a Hearts 0
 scoreboard players set minimum_hearts Hearts 20
 scoreboard players set maximum_hearts Hearts 60
 
-scoreboard objectives add FreezingWaterTime dummy
 
 #Thank you kind soul, for pointing out the obvious mistake I made. So greatful for you.
 scoreboard objectives add sleepTimerScore dummy
@@ -87,7 +86,7 @@ scoreboard players set 0 wandering_trader_timer_score 0
 
 scoreboard objectives add version_number dummy
 #EX. 104 is 1.04, it represents the current version
-scoreboard players set current_version version_number 110
+scoreboard players set current_version version_number 112
 scoreboard players set zero version_number 0
 
 scoreboard objectives add gamerule_safe_surface dummy
