@@ -9,9 +9,9 @@
 advancement revoke @a only main:multiplayer_support/check_if_new_player_has_joined
 
 #If the player is not on the version score board, set their score to zero, otherwise, leave it
-execute at @a run execute unless score @p version_number >= zero version_number run scoreboard players set @p version_number 0
+execute as @a unless score @s version_number >= zero version_number run scoreboard players set @s version_number 0
 
 #If the player's version number < current, add them to the scoreboard
-execute if score @p version_number < current_version version_number run function main:setup/scoreboard
+execute as @a if score @s version_number < current_version version_number run function main:setup/scoreboard
 #If the player's version number is less than the current version, run the amnesia function (remove all recipe unlock advancements)
-execute if score @p version_number < current_version version_number run function main:setup/revoke_all_recipe_unlock_advancements
+execute as @a if score @s version_number < current_version version_number run function main:setup/revoke_all_recipe_unlock_advancements
