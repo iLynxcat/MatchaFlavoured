@@ -1,1 +1,1 @@
-schedule function main:mechanic/set_rain 3s
+function main:mechanic/set_rain
